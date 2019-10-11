@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADFA744023437E4500F13793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA743F23437E4500F13793 /* AppDelegate.swift */; };
+		ADFA744623437E4700F13793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFA744523437E4700F13793 /* Assets.xcassets */; };
+		ADFA744923437E4700F13793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFA744823437E4700F13793 /* Preview Assets.xcassets */; };
+		ADFA744C23437E4700F13793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFA744A23437E4700F13793 /* LaunchScreen.storyboard */; };
+		ADFA745723437E4700F13793 /* ReactiveProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA745623437E4700F13793 /* ReactiveProgrammingTests.swift */; };
+		ADFA746323437ED500F13793 /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADFA746223437ED500F13793 /* ReactiveSwift */; };
+		ADFA746623437EFF00F13793 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADFA746523437EFF00F13793 /* RxSwift */; };
+		ADFA7468234385E700F13793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA7467234385E700F13793 /* ViewController.swift */; };
+		ADFA746A2343A05700F13793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFA74692343A05700F13793 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADFA745323437E4700F13793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADFA743423437E4500F13793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADFA743B23437E4500F13793;
+			remoteInfo = ReactiveProgramming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADFA743C23437E4500F13793 /* ReactiveProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFA743F23437E4500F13793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADFA744523437E4700F13793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADFA744823437E4700F13793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADFA744B23437E4700F13793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADFA744D23437E4700F13793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFA745223437E4700F13793 /* ReactiveProgrammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveProgrammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFA745623437E4700F13793 /* ReactiveProgrammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveProgrammingTests.swift; sourceTree = "<group>"; };
+		ADFA745823437E4700F13793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFA7467234385E700F13793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADFA74692343A05700F13793 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADFA743923437E4500F13793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFA746623437EFF00F13793 /* RxSwift in Frameworks */,
+				ADFA746323437ED500F13793 /* ReactiveSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFA744F23437E4700F13793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADFA743323437E4500F13793 = {
+			isa = PBXGroup;
+			children = (
+				ADFA743E23437E4500F13793 /* ReactiveProgramming */,
+				ADFA745523437E4700F13793 /* ReactiveProgrammingTests */,
+				ADFA743D23437E4500F13793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADFA743D23437E4500F13793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA743C23437E4500F13793 /* ReactiveProgramming.app */,
+				ADFA745223437E4700F13793 /* ReactiveProgrammingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADFA743E23437E4500F13793 /* ReactiveProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA743F23437E4500F13793 /* AppDelegate.swift */,
+				ADFA744523437E4700F13793 /* Assets.xcassets */,
+				ADFA744A23437E4700F13793 /* LaunchScreen.storyboard */,
+				ADFA744D23437E4700F13793 /* Info.plist */,
+				ADFA744723437E4700F13793 /* Preview Content */,
+				ADFA7467234385E700F13793 /* ViewController.swift */,
+				ADFA74692343A05700F13793 /* Main.storyboard */,
+			);
+			path = ReactiveProgramming;
+			sourceTree = "<group>";
+		};
+		ADFA744723437E4700F13793 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA744823437E4700F13793 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADFA745523437E4700F13793 /* ReactiveProgrammingTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA745623437E4700F13793 /* ReactiveProgrammingTests.swift */,
+				ADFA745823437E4700F13793 /* Info.plist */,
+			);
+			path = ReactiveProgrammingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADFA743B23437E4500F13793 /* ReactiveProgramming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFA745B23437E4700F13793 /* Build configuration list for PBXNativeTarget "ReactiveProgramming" */;
+			buildPhases = (
+				ADFA743823437E4500F13793 /* Sources */,
+				ADFA743923437E4500F13793 /* Frameworks */,
+				ADFA743A23437E4500F13793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveProgramming;
+			packageProductDependencies = (
+				ADFA746223437ED500F13793 /* ReactiveSwift */,
+				ADFA746523437EFF00F13793 /* RxSwift */,
+			);
+			productName = ReactiveProgramming;
+			productReference = ADFA743C23437E4500F13793 /* ReactiveProgramming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADFA745123437E4700F13793 /* ReactiveProgrammingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFA745E23437E4700F13793 /* Build configuration list for PBXNativeTarget "ReactiveProgrammingTests" */;
+			buildPhases = (
+				ADFA744E23437E4700F13793 /* Sources */,
+				ADFA744F23437E4700F13793 /* Frameworks */,
+				ADFA745023437E4700F13793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADFA745423437E4700F13793 /* PBXTargetDependency */,
+			);
+			name = ReactiveProgrammingTests;
+			productName = ReactiveProgrammingTests;
+			productReference = ADFA745223437E4700F13793 /* ReactiveProgrammingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADFA743423437E4500F13793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SzymonMrozek;
+				TargetAttributes = {
+					ADFA743B23437E4500F13793 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ADFA745123437E4700F13793 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ADFA743B23437E4500F13793;
+					};
+				};
+			};
+			buildConfigurationList = ADFA743723437E4500F13793 /* Build configuration list for PBXProject "ReactiveProgramming" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADFA743323437E4500F13793;
+			packageReferences = (
+				ADFA746123437ED500F13793 /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
+				ADFA746423437EFF00F13793 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = ADFA743D23437E4500F13793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADFA743B23437E4500F13793 /* ReactiveProgramming */,
+				ADFA745123437E4700F13793 /* ReactiveProgrammingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADFA743A23437E4500F13793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFA744C23437E4700F13793 /* LaunchScreen.storyboard in Resources */,
+				ADFA744923437E4700F13793 /* Preview Assets.xcassets in Resources */,
+				ADFA744623437E4700F13793 /* Assets.xcassets in Resources */,
+				ADFA746A2343A05700F13793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFA745023437E4700F13793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADFA743823437E4500F13793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFA7468234385E700F13793 /* ViewController.swift in Sources */,
+				ADFA744023437E4500F13793 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFA744E23437E4700F13793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFA745723437E4700F13793 /* ReactiveProgrammingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADFA745423437E4700F13793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADFA743B23437E4500F13793 /* ReactiveProgramming */;
+			targetProxy = ADFA745323437E4700F13793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADFA744A23437E4700F13793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFA744B23437E4700F13793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADFA745923437E4700F13793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADFA745A23437E4700F13793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADFA745C23437E4700F13793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"ReactiveProgramming/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReactiveProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szymonmrozek.ReactiveProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADFA745D23437E4700F13793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"ReactiveProgramming/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReactiveProgramming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szymonmrozek.ReactiveProgramming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADFA745F23437E4700F13793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSMJS9552W;
+				INFOPLIST_FILE = ReactiveProgrammingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szymonmrozek.ReactiveProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveProgramming.app/ReactiveProgramming";
+			};
+			name = Debug;
+		};
+		ADFA746023437E4700F13793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSMJS9552W;
+				INFOPLIST_FILE = ReactiveProgrammingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szymonmrozek.ReactiveProgrammingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveProgramming.app/ReactiveProgramming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADFA743723437E4500F13793 /* Build configuration list for PBXProject "ReactiveProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFA745923437E4700F13793 /* Debug */,
+				ADFA745A23437E4700F13793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFA745B23437E4700F13793 /* Build configuration list for PBXNativeTarget "ReactiveProgramming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFA745C23437E4700F13793 /* Debug */,
+				ADFA745D23437E4700F13793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFA745E23437E4700F13793 /* Build configuration list for PBXNativeTarget "ReactiveProgrammingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFA745F23437E4700F13793 /* Debug */,
+				ADFA746023437E4700F13793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADFA746123437ED500F13793 /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		ADFA746423437EFF00F13793 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADFA746223437ED500F13793 /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADFA746123437ED500F13793 /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+		ADFA746523437EFF00F13793 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADFA746423437EFF00F13793 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ADFA743423437E4500F13793 /* Project object */;
+}

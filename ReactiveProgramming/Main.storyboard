@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aS1-mu-4ya">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8X7-NJ-4dh">
+            <objects>
+                <viewController id="aS1-mu-4ya" customClass="ViewController" customModule="ReactiveProgramming" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dxl-e7-AEr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcg-85-1X2">
+                                <rect key="frame" x="177.5" y="438" width="59" height="30"/>
+                                <state key="normal" title="Reactive"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQK-Yy-jwM">
+                                <rect key="frame" x="192" y="528" width="30" height="30"/>
+                                <state key="normal" title="Rx"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxX-3r-dcH">
+                                <rect key="frame" x="176" y="357" width="62" height="30"/>
+                                <state key="normal" title="Combine"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUw-dD-puV">
+                                <rect key="frame" x="186" y="166.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xUw-dD-puV" firstAttribute="centerX" secondItem="plW-xe-2Sr" secondAttribute="centerX" id="0U4-eF-PPh"/>
+                            <constraint firstItem="CxX-3r-dcH" firstAttribute="top" secondItem="xUw-dD-puV" secondAttribute="bottom" constant="170" id="C5d-km-XYR"/>
+                            <constraint firstItem="mcg-85-1X2" firstAttribute="centerY" secondItem="plW-xe-2Sr" secondAttribute="centerY" id="OGx-jc-aWm"/>
+                            <constraint firstItem="IQK-Yy-jwM" firstAttribute="top" secondItem="mcg-85-1X2" secondAttribute="bottom" constant="60" id="Up0-Fm-Vx4"/>
+                            <constraint firstItem="IQK-Yy-jwM" firstAttribute="centerX" secondItem="plW-xe-2Sr" secondAttribute="centerX" id="VRA-zd-cIH"/>
+                            <constraint firstItem="mcg-85-1X2" firstAttribute="centerX" secondItem="plW-xe-2Sr" secondAttribute="centerX" id="a72-5x-zTE"/>
+                            <constraint firstItem="mcg-85-1X2" firstAttribute="top" secondItem="CxX-3r-dcH" secondAttribute="bottom" constant="51" id="eBb-u8-you"/>
+                            <constraint firstItem="CxX-3r-dcH" firstAttribute="centerX" secondItem="plW-xe-2Sr" secondAttribute="centerX" id="hIY-fq-pCW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="plW-xe-2Sr"/>
+                    </view>
+                    <connections>
+                        <outlet property="combineButton" destination="CxX-3r-dcH" id="Llt-Cr-wK7"/>
+                        <outlet property="reactiveSwiftButton" destination="mcg-85-1X2" id="4Pd-1f-W6D"/>
+                        <outlet property="rxSwiftButton" destination="IQK-Yy-jwM" id="JPB-JC-gTj"/>
+                        <outlet property="textLabel" destination="xUw-dD-puV" id="csf-Yp-Ohq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="neO-Cb-TAh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="64"/>
+        </scene>
+    </scenes>
+</document>
